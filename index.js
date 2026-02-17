@@ -1,7 +1,8 @@
 const express=require("express")
 const app=express()
+app.use(express.json())
 const postrouter=require("./src/routes/posts.routes")
-app.get("/",(req,res)=>{
+app.get("/api",(req,res)=>{
   res.status(200).json({message:"This is home page"})
 })
 app.use("/api/posts",postrouter)
