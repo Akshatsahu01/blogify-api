@@ -1,7 +1,9 @@
 
 
 const post=(req,res)=>{
+
     const data=[{
+        
         id:1,name:"post1"
     },{
         id:2,name:"post2"
