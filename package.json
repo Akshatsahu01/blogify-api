@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Akshatsahu01/bithub-api_new#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
 }
